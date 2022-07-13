@@ -104,7 +104,7 @@ resource "null_resource" "kubectl_rename_context" {
      linked by annotations + namespace:name <-> namespace_service_accounts
 */
 
-/**/
+/*
 # https://github.com/terraform-aws-modules/terraform-aws-iam/tree/master/modules/iam-role-for-service-accounts-eks
 module "iam_eks_role" {
   source    = "terraform-aws-modules/iam/aws//modules/iam-role-for-service-accounts-eks"
@@ -135,3 +135,4 @@ resource "kubernetes_service_account" "service_account" {
     }
   }
 }
+*/
